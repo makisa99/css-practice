@@ -1,2 +1,45 @@
-css fajlasd
-druga linija
+.title:hover{
+	color: red;
+}
+
+h3[class=subtitle]{
+	color: pink;
+}
+
+/*.subtitle{
+	color: blue;
+}*/
+#parag{
+	color: green;
+}
+/*li:only-child{
+	color: purple;
+}*/
+/*
+#google-link:link{
+	color: blue;
+}
+#google-link:visited{
+	color: red;
+}
+*/
+
+h2 + a{ /* uvek kada idu jedan posle drugog */
+	color:  green;
+}
+
+textarea ~ button{ /* uvek kada su u istom parentu */
+	color: purple;
+}
+
+ul > li { /* za svaki li u ul prvi */
+	color:  blue;
+}
+
+/*ul li {  
+	color: green;
+}*/
+
+h3[class~=article-subtitle]{
+	background: green;
+}
