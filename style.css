@@ -1,4 +1,4 @@
-.title:hover{
+/*.title:hover{
 	color: red;
 }
 
@@ -6,40 +6,49 @@ h3[class=subtitle]{
 	color: pink;
 }
 
-/*.subtitle{
+.subtitle{
 	color: blue;
-}*/
+}
 #parag{
 	color: green;
 }
-/*li:only-child{
-	color: purple;
-}*/
-/*
+
 #google-link:link{
 	color: blue;
 }
 #google-link:visited{
 	color: red;
 }
-*/
 
-h2 + a{ /* uvek kada idu jedan posle drugog */
+
+h2 + a{  uvek kada idu jedan posle drugog 
 	color:  green;
 }
 
-textarea ~ button{ /* uvek kada su u istom parentu */
+textarea ~ button{  uvek kada su u istom parentu 
 	color: purple;
 }
 
-ul > li { /* za svaki li u ul prvi */
+ul > li {  za svaki li u ul prvi 
 	color:  blue;
 }
 
-/*ul li {  
+ul li {  
 	color: green;
-}*/
+}
 
 h3[class~=article-subtitle]{
 	background: green;
+}*/
+
+body{
+	background: url("https://img.freepik.com/free-vector/nature-scene-with-river-hills-forest-mountain-landscape-flat-cartoon-style-illustration_1150-37326.jpg?size=626&ext=jpg&ga=GA1.2.1415760153.1623196800")
+}
+
+#title2{
+	color: rgb(184, 127, 50);
+}
+
+.subtitle2{
+	color:  rgb(200, 149, 28);
 }
