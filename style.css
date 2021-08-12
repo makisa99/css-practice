@@ -49,12 +49,13 @@ body{
 	text-transform:  capitalize;
 	text-align: justify;
 	font-size: 0.7em;
-	font-family:  "Arial", serif;
+	/*font-family:  "Arial", serif;*/
+	font-family: 'Comfortaa', cursive;
 }
 
 #title2{
 	color: rgb(184, 127, 50);
-	font-weight: 0;
+	/*font-weight: 0;*/
 }
 
 .subtitle2{
