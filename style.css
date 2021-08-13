@@ -67,12 +67,42 @@ body{
 	width: 70vw;
 	background: linear-gradient(1deg, rgb(94,255,126), rgba(94,255,126,0));
 	/*background:  radial-gradient(red 20%,blue 40%, green 55%);*/
+	/*display: none;*/
 }
 
 #google-link{
 	text-decoration:  underline;
+	
 }
 
 .italics{
 	font-style: italic;
+}
+
+#landscape-image{
+	height: 300px;
+	width: 60%;
+	border: 2px solid rgb(11, 39, 161);
+	/*float: right;*/
+	padding: 1px;
+}
+
+.container{
+	background-color: rgb(250,250,250);
+	margin: 10px;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.container-item{
+	background: rgb(36,130,39);
+	color: white;
+	font-size: 13px;
+	text-align: center;
+
+	width: 35px;
+	line-height: 25px;
+	margin: 10px;
 }
