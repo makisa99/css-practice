@@ -80,6 +80,8 @@ body{
 }
 
 #landscape-image{
+	/*background: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+	*/
 	height: 300px;
 	width: 60%;
 	border: 2px solid rgb(11, 39, 161);
@@ -90,10 +92,13 @@ body{
 .container{
 	background-color: rgb(250,250,250);
 	margin: 10px;
+	height: 150px;
 
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
+/*	flex-wrap: wrap;*/
+	justify-content: center;
+	align-items: center;
 }
 
 .container-item{
